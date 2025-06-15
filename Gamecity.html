@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Run</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div id="character-selection">
+    <a href="index.html"><button>Voltar</button></a>
+    <img id="title" src="image.png" alt="">
+    <div class="characters">
+        
+      <img id="lion" src="img/leao.gif" class="char-option" data-image="img/leao.gif" alt="Leao">
+      <img src="img/Macaco.gif" class="char-option" data-image="img/Macaco.gif" alt="Macaco">
+      <img src="img/bode.gif" class="char-option" data-image="img/bode.gif" alt="Bode">
+      <img src="img/avestruz.gif" class="char-option" data-image="img/avestruz.gif" alt="Avestruz">
+      <img src="img/burro.gif" class="char-option" data-image="img/burro.gif" alt="Burro">
+      <img src="img/rinoceronte.gif" class="char-option" data-image="img/rinoceronte.gif" alt="Rinoceronte">
+
+   
+    </div>
+  </div>
+
+  <div class="game-container">
+    <img src="img/nuvem.png" class="nuvem" id="nuvem" alt="Nuvem">
+    <div class="score">Distância: <span id="distance">0</span> m</div>
+    <img src="img/bode.gif" class="player" id="player" alt="Animal">
+    <img src="img/fogo.gif" class="obstacle" id="obstacle" alt="Fogo">
+    <div class="ground"></div>
+    <button id="playButton" class="hidden">Jogar</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

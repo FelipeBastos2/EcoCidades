@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aee;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  position: relative;
+  width: 90%;
+  
+  height: 700px;
+  margin: 40px auto;
+  background: url("img/florest.gif") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #3a4d3d;
+  opacity: 0.8;
+}
+
+.player {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 150px;
+  height: auto;
+  transition: bottom 0.3s;
+}
+
+.obstacle {
+  position: absolute;
+  bottom: -15px;
+  right: -60px;
+  width: 150px;
+  height: auto;
+}
+
+.nuvem {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  width: 300px;
+  height: auto;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+  z-index: 10;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+#playButton.hidden {
+  display: none;
+}
+  #character-selection {
+  text-align: center;
+  background-image:url(img/ChatGPT\ Image\ 14\ de\ jun.\ de\ 2025\,\ 14_03_16.png) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10px;
+}
+
+  #character-selection button {
+  width:100px ;
+  height: 30px;
+  border-radius: 8px;
+  border: navajowhite;
+  background-color: #3a4d3d;
+  color: wheat;
+  top: 0;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  cursor: pointer;
+  }
+
+#character-selection h2 {
+  margin-bottom: 10px;
+  color: #333;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.characters img {
+  width: 200px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url(img/floresta.gif);
+  background-position: top;
+  background-size: 300px;
+  transition: transform 0.2s, border 0.2s;
+}
+
+.characters img.selected {
+  border-color: #ffc800;
+  transform: scale(1.1);
+  
+}
+
+
+
+#title{
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+  .game-container {
+    width: 100%;
+    height: 260px;
+  }
+
+  .player {
+    width: 65px;
+  }
+
+  .obstacle {
+    width: 50px;
+    bottom: 30px;
+  }
+
+  .nuvem {
+    width: 80px;
+  }
+
+  #playButton {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  #character-selection {
+  text-align: center;
+  padding: 10px;
+   background-image:url(img/ChatGPT\ Image\ 14\ de\ jun.\ de\ 2025\,\ 14_03_16.png) ;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+#character-selection h2 {
+  margin-bottom: 10px;
+  color: #333;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#title{
+    width: 100px;
+}
+
+.characters img {
+  width: 100px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000;
+  transition: transform 0.2s, border 0.2s;
+}
+
+.characters img.selected {
+  border-color: #00ccff;
+  transform: scale(1.1);
+  
+}
+}

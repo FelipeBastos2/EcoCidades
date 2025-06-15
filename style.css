@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf4ea;
+  }
+
+  header {
+    background-color: #a1c8a2;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  header img {
+    margin: 0;
+   width: 20%;
+  }
+
+  nav {
+    background-color: #9bc09f;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .sac {
+    position: relative;
+    right: 2rem;
+    top: 2rem;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 2rem;
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+  }
+
+  .img-capa {
+    width: 55%;
+    object-fit: cover;     /* mantém proporção, cortando o excesso */
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .formatar-texto {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .lado-lado{
+    display: flex;
+    text-decoration: none;
+  }
+
+ 
+  .cideco{
+    margin-top: 30%;
+    max-width: 50%;
+  }
+
+  .distancia-texto{
+    margin-top: 15%;
+    font-weight: bold;
+  }
+
+  .formatar-texto{
+    text-align: start;
+    margin-left: 15px;
+    font-weight: normal;
+  }
+
+  .decoration{
+    text-decoration: none;
+    color: black;
+  }
+
+
+.mobile-devices{
+  display: none;
+}
+
+.cideco2 img{
+  width: 40px;
+ position: fixed;
+ right: 2%;
+}
+
+.cideco3 img{
+  width: 80px;
+ position: fixed;
+ left: 3%;
+  bottom: 2%;
+
+}
+
+
+.lol{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 720px){
+  
+.cabecalho{
+  display: none;
+}
+ .cideco2{
+  display: none;
+ }
+ 
+
+.topo{
+  position:fixed;
+  display: flex;
+  top: 0;
+}
+
+
+.lol{
+  text-decoration: none;
+  display: block;
+    right: 5%;
+  top: 4%;
+  margin-left: 80%;
+  text-decoration: none;
+  color: #f0f0f0;
+  position: fixed;
+}
+
+
+
+
+
+
+nav {
+    background-color: #9bc09f;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .sac {
+    position: relative;
+    right: 2rem;
+    top: 2rem;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .cards {
+        margin-top: 20%;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 2rem;
+    width: 300px;
+    height: 450px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+  }
+
+  .img-capa {
+    width: 55%;
+    object-fit: cover;     /* mantém proporção, cortando o excesso */
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .formatar-texto {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .lado-lado{
+    display: flex;
+    text-decoration: none;
+  }
+
+ 
+  .cideco{
+    margin-top: 30%;
+    max-width: 50%;
+  }
+
+  .distancia-texto{
+    margin-top: 15%;
+    font-weight: bold;
+  }
+
+  .formatar-texto{
+    text-align: start;
+    margin-left: 15px;
+    font-weight: normal;
+  }
+
+  .decoration{
+    text-decoration: none;
+    color: black;
+  }
+
+
+}

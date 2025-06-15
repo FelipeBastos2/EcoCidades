@@ -1,0 +1,81 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="SAC.css">
+  <title>SAC - Denúncias Ambientais</title>
+
+</head>
+<body>
+
+  <h1>SAC – Perguntas Frequentes sobre Denúncias Ambientais</h1>
+  <div class="faq-container">
+
+    <div class="faq-item">
+      <div class="faq-question">1. O que é considerado uma infração ambiental?</div>
+      <div class="faq-answer">São ações que causam danos ao meio ambiente, como desmatamento ilegal, queimadas, caça e pesca predatória, despejo irregular de lixo, poluição da água e do ar, entre outras.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">2. Como posso fazer uma denúncia ambiental pelo site?</div>
+      <div class="faq-answer">Acesse a seção "Denuncie", preencha o formulário com as informações solicitadas (local, descrição, fotos ou vídeos, se possível) e envie. Sua denúncia será analisada e encaminhada para os órgãos competentes.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">3. Preciso me identificar para fazer uma denúncia?</div>
+      <div class="faq-answer">Não. As denúncias podem ser feitas de forma anônima, mas, ao se identificar, você pode receber atualizações sobre o andamento do caso.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">4. O que acontece depois que eu envio uma denúncia?</div>
+      <div class="faq-answer">Nossa equipe verifica as informações e repassa aos órgãos fiscalizadores, como o IBAMA, a Polícia Ambiental ou a Secretaria de Meio Ambiente da sua região.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">5. Posso denunciar crimes ambientais que já aconteceram há muito tempo?</div>
+      <div class="faq-answer">Sim. Informações antigas também são importantes, especialmente se os danos persistem ou não foram corrigidos.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">6. Como sei se minha denúncia foi recebida ou está sendo investigada?</div>
+      <div class="faq-answer">Se você optou por se identificar, poderá acompanhar por e-mail ou receber um número de protocolo. Para denúncias anônimas, o acompanhamento não é possível.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">7. O site é oficial do governo?</div>
+      <div class="faq-answer">Não. Este é um site colaborativo e informativo, que atua como ponte entre a sociedade civil e os órgãos competentes. Toda denúncia é encaminhada para análise pelas autoridades.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">8. Que tipo de provas posso enviar junto com a denúncia?</div>
+      <div class="faq-answer">Fotos, vídeos, links de redes sociais, localização (via mapa), ou qualquer outro material que ajude a comprovar a infração ambiental.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">9. Posso denunciar empresas ou apenas pessoas físicas?</div>
+      <div class="faq-answer">Sim, empresas também podem ser denunciadas caso estejam cometendo danos ao meio ambiente.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">10. E se a denúncia for falsa ou sem fundamento?</div>
+      <div class="faq-answer">Denúncias falsas atrapalham o trabalho dos órgãos competentes. Só envie denúncias verdadeiras. Informações incorretas intencionalmente podem configurar crime.</div>
+    </div>
+
+       <div class="faq-item">
+        <a href="https://docs.google.com/forms/d/1RA7nzYomyq99JPqaZ3uEFyYjqRZyZpR53LX9F_ooHbY/edit" target="_blank">      <div class="faq-question">Envie sua pergunta</div>
+</a>
+    </div>
+
+  </div>
+  <a id="Voltar" href="index.html">Voltar</a>
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        const answer = q.nextElementSibling;
+        answer.classList.toggle('open');
+      });
+    });
+  </script>
+
+</body>
+</html>

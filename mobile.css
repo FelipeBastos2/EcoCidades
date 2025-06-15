@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(139, 208, 139);
+}
+
+
+.cabecalho a{
+    display: block;
+    width: 90%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cabecalho button{
+    width: 90%;
+    padding: 10%;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+    margin-left: 35px;
+    background-color:rgb(93, 170, 93) ;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cabecalho button:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color:rgb(61, 111, 61) ;
+}
+
+.cideco img{
+    width: 60px;
+    margin-top: 40px;
+}
+
+.cideco3 img{
+  width: 63px;
+     margin-top: 40px;
+
+}
+.joguinho{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

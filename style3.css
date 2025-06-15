@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf4ea;
+  }
+
+  header {
+    background-color: #a1c8a2;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  header img {
+    margin: 0;
+   width: 20%;
+  }
+
+  nav {
+    background-color: #9bc09f;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .sac {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .top-nav {
+    background-color: #93b49f;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .top-nav button {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .main-content {
+    margin: 40px auto;
+    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .main-content img.character {
+    width: 150px;
+    margin-top: 10%;
+  }
+
+  .text-area {
+    flex: 1;
+  }
+
+  .text-area h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tutorial {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: #dbe3d0;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  .tutorial img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .description {
+    flex: 1;
+    font-size: 1rem;
+  }
+
+  .description b {
+    font-weight: bold;
+  }
+
+  .description ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .description ul li::before {
+    content: "\2713\0020";
+    color: #4a6d41;
+  }
+
+  .description ol {
+    padding-left: 20px;
+  }
+
+  .espacamento{
+    gap:80%;
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .espacamento button{
+    background-color: #4a6d41;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .espacamento button:hover{
+    background-color: #4a6d41;
+    color: antiquewhite;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+
+
+.mobile-devices{
+  display: none;
+}
+
+
+
+.cideco2 img{
+  width: 40px;
+ position: fixed;
+ right: 2%;
+}
+
+.cideco3 img{
+  width: 80px;
+ position: fixed;
+ left: 3%;
+  bottom: 2%;
+
+}
+
+
+.lol{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 720px){
+  
+.cabecalho{
+  display: none;
+}
+ .cideco2{
+  display: none;
+ }
+ #cideco{
+
+display: none;
+}
+
+.topo{
+  position:fixed;
+  display: flex;
+  top: 0;
+}
+
+
+.lol{
+  text-decoration: none;
+  display: block;
+    right: 5%;
+  top: 4%;
+  margin-left: 80%;
+  text-decoration: none;
+  color: #f0f0f0;
+  position: fixed;
+}
+
+
+
+.main-content {
+    margin: 40px auto;
+    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 30px;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
+
+  .main-content img.character {
+    width: 150px;
+  
+    margin-top: 10%;
+  }
+
+  .text-area {
+    flex: 1;
+        display: block;
+
+  }
+
+  .text-area h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tutorial {
+    display: block;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: #dbe3d0;
+    padding: 20px;
+    border-radius: 25px;
+      align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .tutorial img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+  }
+
+  .description {
+    flex: 1;
+    font-size: 1rem;
+  }
+
+  .description b {
+    font-weight: bold;
+  }
+
+  .description ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .description ul li::before {
+    content: "\2713\0020";
+    color: #4a6d41;
+  }
+
+  .description ol {
+    padding-left: 20px;
+  }
+
+  .espacamento{
+    gap: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .espacamento button{
+    background-color: #4a6d41;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .espacamento button:hover{
+    background-color: #4a6d41;
+    color: antiquewhite;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+
+}
